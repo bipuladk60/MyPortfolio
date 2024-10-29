@@ -11,22 +11,24 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
-            Skills
-          </Link>
-        </li>
-        <li>
           <Link to="projects" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
             Projects
           </Link>
         </li>
+        
+        <li>
+          <Link to="skills" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
+            Skills
+          </Link>
+        </li>
+        
         <li>
           <Link to="contact" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
             Contact
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline bg-primary text-white font-body py-1 px-1.5 rounded-button hover:bg-secondary transition-colors">
+          <Link to="contact" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline bg-primary text-white font-body py-1 px-2 rounded-button hover:bg-secondary transition-colors">
             Resume
           </Link>
         </li>
