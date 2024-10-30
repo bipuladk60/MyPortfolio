@@ -1,12 +1,10 @@
 import React from 'react';
+import { RetroGrid } from '../components/magicui/RetroGrid';
 
 function ProjectPage() {
   return (
-    <div className="bg-bg text-text min-h-screen flex flex-col items-center justify-center w-full">
-      <h1 className="font-heading text-title text-primary mb-4">Projects</h1>
-      <p className="font-body text-paragraph text-highlight">
-        Welcome to the Project page!
-      </p>
+    <div className="bg-bg text-text min-h-screen flex flex-col items-center justify-center w-full overflow-hidden">
+       <RetroGrid className="z-0" />
     </div>
   );
 }
