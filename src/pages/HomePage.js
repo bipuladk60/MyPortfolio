@@ -4,7 +4,7 @@ import HomePageLottie from "../lotties/HomePageLottie.json";
 
 function HomePage() {
   return (
-    <div className="bg-bg text-text min-h-[85vh] flex flex-col md:flex-row items-center w-full pl-12 pr-4 md:pl-16 md:pr-8">
+    <div className="bg-bg text-text min-h-[85vh] flex flex-col md:flex-row items-center w-full pl-12 pr-4 md:pl-16 md:pr-8 relative">
       
       
      

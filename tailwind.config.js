@@ -11,12 +11,14 @@ module.exports = {
       },
       colors: {
         primary: '#A020F0',
-        secondary: '#A020F0',
+        secondary: '#16a394',
         accent: '#39FF14',
         bg: '#121212',
         cardBg: 'rgba(255, 255, 255, 0.1)',
         highlight: '#FF66B2',
         text: '#CCCCCC',
+        active: '#CCCCCC',
+        inactive: 'gray-600'
       },
       fontSize: {
         title: '4rem',
