@@ -18,10 +18,10 @@ function HomePage() {
         {/* Button Row */}
         <div className="flex space-x-4 mt-6">
           <button className="bg-primary text-white font-body py-2 px-4 rounded-button hover:bg-secondary transition-colors">
-            Github
+            <a rel="noreferrer" href='https://github.com/bipuladk60' target='_blank'>Github</a>
           </button>
           <button className="bg-primary text-white font-body py-2 px-4 rounded-button hover:bg-secondary transition-colors">
-            LinkedIn
+          <a rel="noreferrer" href='https://www.linkedin.com/in/bipul-adhikari/' target='_blank'>LinkedIn</a>
           </button>
         </div>
       </div>
