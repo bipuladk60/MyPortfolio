@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { MdDocumentScanner } from "react-icons/md";
+import {  } from "react-icons/md";
 import { SiApplemusic } from "react-icons/si";
 import { FaVirusCovid } from "react-icons/fa6";
+import { MdOutlinePhoneIphone } from "react-icons/md";
 import { FaReact } from "react-icons/fa"; // Example icons for AI/ML projects
 import ProjectCard from './ProjectCard';
 
@@ -13,17 +14,17 @@ function ProjectContainer() {
     };
 
     return (
-        <div className='bg-cardBg text-text p-6 sm:p-8 my-20 rounded-lg w-full max-w-[95%] sm:max-w-[90%] md:max-w-[85%] lg:max-w-[95%] xl:max-w-[80%] min-h-[20rem] mx-auto md:mx-4'>
+        <div className='bg-cardBg text-text p-6 my-20 flex flex-col rounded-lg w-full max-w-[100%] sm:max-w-[95%] md:max-w-[85%] lg:max-w-[95%] xl:max-w-[80%] min-h-[20rem] mx-auto md:mx-4'>
             {/* Tabs */}
             <div className='w-full flex justify-around mb-4'>
                 <button
-                    className={`font-bold text-3xl md:text-med lg:text-med ${activeTab === "web" ? "text-white" : "text-gray-500"}`}
+                    className={`font-bold text-2xl md:text-3xl lg:text-3xl ${activeTab === "web" ? "text-white" : "text-gray-500"}`}
                     onClick={() => handleTabClick('web')}
                 >
                     Web/App
                 </button>
                 <button
-                    className={`font-bold text-3xl md:text-med lg:text-med ${activeTab === "ai" ? "text-white" : "text-gray-500"}`}
+                    className={`font-bold text-2xl md:text-med lg:text-3xl ${activeTab === "ai" ? "text-white" : "text-gray-500"}`}
                     onClick={() => handleTabClick('ai')}
                 >
                     AI/ML
@@ -39,12 +40,12 @@ function ProjectContainer() {
                     {/* Web/App Dev Content */}
                     <div className="w-full flex-shrink-0 flex flex-col justify-around bg-transparent py-6 px-10 rounded-md">
                         <div className='text-left'>
-                            <h2 className='text-small text-white'>Web/App.<span className='text-gray-400'> TOOLS I'M FAMILIAR WITH</span></h2>
-                            <p className='my-10'>React, React Native, Tailwind CSS, Material-UI (MUI), LottieFiles, JavaScript, Python, Swift, MongoDB, PostgreSql, Magic UI, Node.js, Express.js, HTML, CSS, AWS, Vue.js, Azure.</p>
+                            <h2 className='text-lg md:text-3xl lg:text-3xl text-white'>Web/App.<span className='text-gray-400'> TOOLS I'M FAMILIAR WITH</span></h2>
+                            <p className='my-4 md:my-10 text-sm  md:text-lg font-body'>React, React Native, Tailwind CSS, Material-UI (MUI), LottieFiles, JavaScript, Python, Swift, MongoDB, PostgreSql, Magic UI, Node.js, Express.js, HTML, CSS, AWS, Vue.js, Azure.</p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <ProjectCard 
-                                icon={MdDocumentScanner}
+                                icon={MdOutlinePhoneIphone}
                                 name="CleanLabel"
                                 title="An Ingredient Label Scanner"
                                 description="Developed as part of a competitive Hackathon, this iOS App uses Computer Vision to scan ingredient labels and detect any harmful ingredients. It also tells the user in which country certain ingredient is banned."
@@ -67,8 +68,8 @@ function ProjectContainer() {
                     {/* AI/ML Content */}
                     <div className="w-full flex-shrink-0 flex flex-col justify-around bg-transparent py-6 px-10 rounded-md">
                         <div className='text-left'>
-                            <h2 className='text-small text-white'>AI/ML.<span className='text-gray-400'> TOOLS I'M FAMILIAR WITH</span></h2>
-                            <p className='my-10'>TensorFlow, PyTorch, scipy, Pandas, Numpy, Matplotlib, Keras, Python, Jupyter Notebook, Comet ML, Google Colab, Natural Language Processing, Computer Vision.</p>
+                            <h2 className='text-lg md:text-3xl lg:text-3xl text-white'>AI/ML.<span className='text-gray-400'> TOOLS I'M FAMILIAR WITH</span></h2>
+                            <p className='my-4 md:my-10 text-sm  md:text-lg font-body'>TensorFlow, PyTorch, scipy, Pandas, Numpy, Matplotlib, Keras, Python, Jupyter Notebook, Comet ML, Google Colab, Natural Language Processing, Computer Vision.</p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <ProjectCard 

@@ -24,7 +24,7 @@ function App() {
           <MarqueeComp />
         </div>
          {/* Projects Page */}
-         <div id="projects" className="section w-full min-h-screen flex items-center justify-center overflow-hidden">
+         <div id="projects" className="pt-20 section w-full min-h-screen flex items-center justify-center overflow-hidden">
           <ProjectPage />
         </div>
         {/* Skills Section */}

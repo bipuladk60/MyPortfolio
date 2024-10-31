@@ -22,11 +22,15 @@ module.exports = {
       },
       fontSize: {
         title: '4rem',
+        title_sm: '6xl',
         large: '4rem',
         med: '2.5rem',
         small: '1.5rem',
         subtitle: '2rem',
-        paragraph: '1rem',
+        sibtitle_sm: '1rem',
+        paragraph: '0.75rem',
+        paragraph_sm: '0.5rem',
+        icon: '8xl',
 
       },
       spacing: {

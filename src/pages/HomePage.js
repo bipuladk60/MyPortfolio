@@ -6,15 +6,12 @@ function HomePage() {
   return (
     <div className="bg-bg text-text min-h-[85vh] flex flex-col md:flex-row items-center w-full pl-12 pr-4 md:pl-16 md:pr-8 relative">
       
-      
-     
-
       {/* Center Content (comes below animation on small screens) */}
-      <div className="order-2 md:order-none flex flex-col items-center md:items-start w-full md:w-1/2 lg:w-1/2 space-y-4 text-center md:text-left py-2">
-        <h1 className="font-heading text-3xl md:text-5xl lg:text-6xl text-text font-bold px-2">
+      <div className="order-2 md:order-none flex flex-col md:items-start w-full md:w-1/2 lg:w-1/2 space-y-4 text-left md:text-left py-2 px-8 md:px-2">
+        <h1 className="font-heading text-2xl md:text-4xl lg:text-6xl text-text font-bold  ">
           Hey! This is <span className="text-highlight text-primary ">Bipul</span>, an aspiring <span className="text-highlight text-primary">Software Engineer</span>
         </h1>
-        <p className="font-body text-md md:text-xl text-text">
+        <p className="font-body text-sm md:text-xl text-text">
           Curious, Passionate, and Hardworking
         </p>
         
