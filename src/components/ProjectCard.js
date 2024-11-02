@@ -2,15 +2,15 @@ import React from 'react';
 
 function ProjectCard({ icon: Icon, name, title, description, linkText, linkText2, linkUrl, linkUrl2 }) {
     return (
-        <div className="p-6 bg-cardBg rounded-lg shadow-lg border border-primary w-full h-auto flex flex-col justify-between">
+        <div className="p-6 bg-cardBg rounded-lg shadow-lg border border-primary w-full h-auto flex flex-col">
             {/* Icon and Title */}
             <div className="flex items-center space-x-3">
-                <div className="text-primary md:text-8xl text-5xl">
+                <div className="text-primary lg:text-8xl text-5xl">
                     {Icon && <Icon />} {/* Render the passed icon */}
                 </div>
                 <div className='flex flex-col text-left font-bold font-heading text-gray-400'>
-                    <h3 className='text-lg md:text-3xl'>{name}</h3>
-                    <h4 className="font-semibold font-body text-sm md:text-lg text-text text-md uppercase">{title}</h4>
+                    <h3 className='text-lg lg:text-3xl'>{name}</h3>
+                    <h4 className="font-semibold font-body text-sm lg:text-lg text-text text-md uppercase">{title}</h4>
                 </div>
             </div>
 

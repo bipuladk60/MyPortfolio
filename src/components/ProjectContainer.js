@@ -38,7 +38,7 @@ function ProjectContainer() {
                     style={{ transform: activeTab === 'web' ? 'translateX(0)' : 'translateX(-100%)', width: '100%' }}
                 >
                     {/* Web/App Dev Content */}
-                    <div className="w-full flex-shrink-0 flex flex-col justify-around bg-transparent py-6 px-10 rounded-md">
+                    <div className="w-full flex-shrink-0 flex flex-col justify-around bg-transparent py-6 md:px-10 rounded-md">
                         <div className='text-left'>
                             <h2 className='text-lg md:text-3xl lg:text-3xl text-white'>Web/App.<span className='text-gray-400'> TOOLS I'M FAMILIAR WITH</span></h2>
                             <p className='my-4 md:my-10 text-sm  md:text-lg font-body'>React, React Native, Tailwind CSS, Material-UI (MUI), LottieFiles, JavaScript, Python, Swift, MongoDB, PostgreSql, Magic UI, Node.js, Express.js, HTML, CSS, AWS, Vue.js, Azure.</p>
@@ -66,7 +66,7 @@ function ProjectContainer() {
                     </div>
 
                     {/* AI/ML Content */}
-                    <div className="w-full flex-shrink-0 flex flex-col justify-around bg-transparent py-6 px-10 rounded-md">
+                    <div className="w-full flex-shrink-0 flex flex-col justify-around bg-transparent py-6 md:px-10 rounded-md">
                         <div className='text-left'>
                             <h2 className='text-lg md:text-3xl lg:text-3xl text-white'>AI/ML.<span className='text-gray-400'> TOOLS I'M FAMILIAR WITH</span></h2>
                             <p className='my-4 md:my-10 text-sm  md:text-lg font-body'>TensorFlow, PyTorch, scipy, Pandas, Numpy, Matplotlib, Keras, Python, Jupyter Notebook, Comet ML, Google Colab, Natural Language Processing, Computer Vision.</p>
