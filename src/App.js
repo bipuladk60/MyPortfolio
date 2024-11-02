@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import SkillsPage from './pages/SkillsPage';
 import ProjectPage from './pages/ProjectPage';
+import ContactPage from './pages/ContactPage';
 import './App.css';
 import MarqueeComp from './components/Marquee';
 function App() {
@@ -30,6 +31,10 @@ function App() {
         {/* Skills Section */}
         <div id="skills" className="section w-full min-h-screen flex items-center justify-center">
           <SkillsPage />
+        </div>
+        {/* Contact Section */}
+        <div id="contacts" className="section w-full min-h-screen flex items-center justify-center">
+          <ContactPage />
         </div>
 
         {/* Add additional sections here */}
