@@ -9,9 +9,9 @@ function ProjectPage() {
        <RetroGrid className=" absolute z-0" />
         <Quote 
           Header="Projects"
-          Body="I have worked on a variety of projects ranging from Web Development to AI/ML. Here are a few of my projects."
+          Body="If there's a chance to learn, I am already interested. It's not just about projects ;)"
           HyperLink={"View More Projects →"}
-          Link="https://www.linkedin.com/in/bipul-adhikari/"/>
+          Link="https://github.com/bipuladk60"/>
        <ProjectContainer className="z-10 md:p-8 lg:p-8 p-0" />
     </div>
   );
