@@ -31,14 +31,14 @@ function Navbar() {
         </li>
         
         <li>
-          <Link to="contact" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
+          <Link to="contacts" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
             <span className='hidden md:block'>Contact</span>
             <span className='block md:hidden text-2xl ml-2'><FaPhoneAlt /></span>
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
-            <span className='md:block hidden bg-primary text-white font-body py-1 px-2 rounded-button hover:bg-secondary transition-colors'>Resume</span>
+          <Link to="" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
+            <span className='md:block hidden bg-primary text-white font-body py-1 px-2 rounded-button '>Resume</span>
             <span className='block md:hidden text-2xl ml-2'><IoDocumentTextSharp /></span>
           </Link>
         </li>

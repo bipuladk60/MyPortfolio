@@ -20,7 +20,7 @@ export const handleSubmit = async (event, name, email, message, setResponse, set
             setName('');
             setEmail('');
             setMessage('');
-            console.log('submitted')
+            setResponse('I am still working on this feature. Your comment will be saved for later.');
         }
 
 }

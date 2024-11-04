@@ -9,8 +9,7 @@ function Form() {
 
     const handleEmailSubmit = (e) => {
         e.preventDefault();
-        // Handle the email submission logic here
-        console.log("Sending email:", { name, email, message });
+        setResponse("I'm still working on this feature. For now, feel free to reach out to me on LinkedIn.");
     };
 
 
@@ -61,6 +60,7 @@ function Form() {
                     >
                         Email
                     </button>
+                    
 
                     {/* Leave a Comment Button */}
                     <button
@@ -70,6 +70,12 @@ function Form() {
                     >
                         Leave a Comment
                     </button>
+                    {/* Display the response message */}
+            {response && (
+                <div className="mt-4 text-primary text-center">
+                    {response}{" "}
+                </div>
+            )}
                 </div>
             </form>
         </div>
