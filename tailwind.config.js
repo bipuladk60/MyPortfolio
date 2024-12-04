@@ -12,12 +12,12 @@ module.exports = {
       colors: {
         primary: '#A020F0',
         stroke: '#e0e0e0',
-        secondary: '#16a394',
-        accent: '#39FF14',
-        bg: '#121212',
+        secondary: '#00000',
+        accent: '#F8F8FF',
+        bg: '#0B1215',
         cardBg: 'rgba(255, 255, 255, 0.1)',
         highlight: '#FF66B2',
-        text: '#CCCCCC',
+        text: '#F8F8FF',
         active: '#CCCCCC',
         inactive: 'gray-600'
       },
