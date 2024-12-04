@@ -62,20 +62,20 @@ function Form() {
                     </button>
                     
 
-                    {/* Leave a Comment Button */}
+                    {/* Leave a Comment Button
                     <button
                         className="bg-primary text-white py-2 px-4 rounded-md transition-colors"
                         type="submit"
                         onClick={(event) => handleSubmit(event, name, email, message, setResponse, setName, setEmail, setMessage)}
                     >
                         Leave a Comment
-                    </button>
+                    </button> */}
                     {/* Display the response message */}
-            {response && (
+            {/* {response && (
                 <div className="mt-4 text-primary text-center">
                     {response}{" "}
                 </div>
-            )}
+            )} */}
                 </div>
             </form>
         </div>
