@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaTrophy } from 'react-icons/fa';
 import Quote from '../components/quote';
 
 const AwardsPage = () => {
@@ -48,29 +47,24 @@ const AwardsPage = () => {
   };
 
   return (
-    <div className="bg-bg w-full min-h-screen flex flex-col items-center justify-start py-12">
-      <Quote 
-        Header="Awards & Achievements"
-      />
-      <div className="w-full max-w-3xl mx-auto px-4 font-body text-text mt-10">
+    <div className="bg-bg w-full min-h-screen flex flex-col items-center justify-start py-12 px-4">
+      <Quote Header="Awards" />
+      <div className="w-full max-w-2xl mx-auto px-4 font-body text-text mt-10">
         <motion.ul
           variants={listVariants}
           initial="hidden"
           animate="visible"
-          className="space-y-5"
+          className="space-y-4"
         >
           {awards.map((award, index) => (
             <motion.li 
               key={index}
               variants={itemVariants}
-              className="bg-cardBg backdrop-blur-sm rounded-lg p-5 shadow-md hover:shadow-neon transition-all duration-300 flex items-center space-x-4"
+              className="border-b border-primary/20 pb-3 pt-2 transition-all duration-300 hover:bg-primary/5"
             >
-              <div className="text-highlight text-2xl">
-                <FaTrophy />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-md lg:text-lg font-heading text-accent">{award.title}</h3>
-                <p className="text-primary text-sm opacity-90">{award.date}</p>
+              <div className="flex flex-col sm:flex-row justify-between sm:items-center">
+                <h3 className="text-md lg:text-lg font-body text-accent mb-1 sm:mb-0">{award.title}</h3>
+                <p className="text-sm text-primary opacity-90 sm:ml-4 whitespace-nowrap">{award.date}</p>
               </div>
             </motion.li>
           ))}
