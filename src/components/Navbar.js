@@ -5,6 +5,8 @@ import { GrProjects } from "react-icons/gr";
 import { PiUserGearFill } from "react-icons/pi";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoDocumentTextSharp } from "react-icons/io5";
+import { MdWork } from "react-icons/md";
+import { FaTrophy } from "react-icons/fa";
 import ResumeModal from './assets/ResumeModal';
 
 function Navbar() {
@@ -26,19 +28,29 @@ function Navbar() {
             </Link>
           </li>
           <li>
+            <Link to="experience" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
+              <span className='hidden md:block'>Experience</span>
+              <span className='block md:hidden text-2xl ml-2'><MdWork /></span>
+            </Link>
+          </li>
+          <li>
             <Link to="projects" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
              <span className='hidden md:block'>Projects</span> 
              <span className='block md:hidden text-2xl ml-2'><GrProjects /></span>
             </Link>
           </li>
-          
           <li>
             <Link to="skills" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
               <span className='hidden md:block'>Skills</span>
               <span className='block md:hidden text-2xl ml-2'><PiUserGearFill /></span>
             </Link>
           </li>
-          
+          <li>
+            <Link to="awards" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
+              <span className='hidden md:block'>Awards</span>
+              <span className='block md:hidden text-2xl ml-2'><FaTrophy /></span>
+            </Link>
+          </li>
           <li>
             <Link to="contacts" smooth={true} duration={500} offset={-50} className="cursor-pointer transform rotate-90 hover:underline">
               <span className='hidden md:block'>Contact</span>
